@@ -9,8 +9,74 @@ title: BastardStart
 
 Sir, don't listen to what that crazy woman says.
 
+The murderer was clearly her daughter.
+She deliberately identified me so that no one would suspect her daughter.
 
+-> Sound like you're innocent?
+    <<jump B1>>
 
+===
 
+title: B1
+---
+
+Of course!
+The murder weapon was found in the daughter's room, this explains everything.
+
+The old man has a bad relationship with his daughter. I saw them quarrelling the other day.
+
+-> For what reason?
+    <<jump B2>>
+
+===
+
+title: B2
+---
+
+Because he limited his daughter's pocket money.
+
+I'm guessing that's why his daughter killed him, for the inheritance.
+
+-> It sounds standable
+    <<jump B3>>
+
+-> I want you arrested right now you murderer!
+    <<jump B4>>
+
+title: B3
+---
+
+Yes, and I saw her leave the victim's room the night of the murder.
+
+-> I heard you were in that room, too?
+    <<jump B5>>
+
+===
+
+title: B4
+---
+
+I know you suspect me after listening to other people's testimony, but everyone is suspicious.
+I admit that I went to his room that night, but so did his daughter.
+
+-> Do you have any thoughts about other people?
+    <<jump B6>>
+
+===
+
+title: B5
+---
+
+I was only there for a while and then I got out.
+
+-> Do you have any thoughts about other people?
+    <<jump B6>>
+
+===
+
+title: B6
+---
+
+No, I'm pretty sure it was his daughter. Don't forget where the murder weapon was found.
 
 ===

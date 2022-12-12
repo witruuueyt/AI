@@ -1,0 +1,143 @@
+﻿title: Daughter
+tags:
+---
+
+===
+
+title: DaughterStart
+---
+
+Hey, my name is Wendy, I am the daughter.
+
+-> Hi Wendy
+    <<jump D1>>
+
+===
+
+title: D1
+---
+
+What would you like to ask me, sir?
+
+-> Is there anything you want to justify yourself?
+    <<jump D2>>
+
+-> Do you have anything you can tell us?
+    <<jump D3>>
+
+-> Thanks for your cooperation
+    <<jump D11>>
+===
+
+title: D2
+---
+
+I didn't kill anyone. But I don't have any proof.
+
+-> I heard the murder weapon was in your room?
+    <<jump D4>>
+
+===
+
+title: D3
+---
+
+Who do you want to know?
+
+-> The housekeeper
+    <<jump D5>>
+
+-> The wife
+    <<jump D6>>
+
+-> The bastard
+    <<jump D7>>
+
+-> I have no question now
+    <<jump D1>>
+
+===
+
+title: D4
+---
+
+I was set up!
+Who would keep the murder weapon by his side after killing someone?
+
+-> I agree
+    <<jump D8>>
+
+-> Maybe you just didn't have time to throw it away.
+    <<jump D9>>
+
+===
+
+title: D5
+---
+
+He is a kind old grandpa, I don't think it was him.
+
+-> OK
+    <<jump D3>>
+
+===
+
+title: D6
+---
+
+My mom is hesitating about getting a divorce.
+Although she hated my father, she would not kill him.
+
+-> OK
+    <<jump D3>>
+
+===
+
+title: D7
+---
+
+He and my dad had frequent arguments.
+But he is actually my brother, and I don't want to doubt him.
+
+-> OK
+    <<jump D3>>
+
+===
+
+title: D8
+---
+
+Please find out who really killed my father!
+
+-> Yes I will
+    <<jump D1>>
+
+-> No I have changed my mind, you are the murderer!
+    <<jump D10>>
+
+===
+
+title: D10
+---
+
+Go to hell!!!
+
+===
+
+title: D9
+---
+
+I really have no way to prove that this has nothing to do with me.
+But he is my father, I can't do this kind of thing for money!
+
+-> I will find out the truth.
+    <<jump D1>>
+
+===
+
+title: D11
+---
+
+You are welcome sir, please believe me that I did not kill anyone!
+
+===
