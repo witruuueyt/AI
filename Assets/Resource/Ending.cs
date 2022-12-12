@@ -6,40 +6,41 @@ using UnityEngine.AI;
 
 public class Ending : MonoBehaviour
 {
-    public InMemoryVariableStorage yarnInmemoryStorage;
+    public InMemoryVariableStorage yarnInmemoryStorage; //to get value from yran
 
-    public GameObject cop;
+    private new AudioSource audio; 
 
-    private new AudioSource audio;
+    public NavMeshAgent cops; //choose a gameobject to be agent
 
-    public NavMeshAgent murderer;
+    public Transform mPos; //choose a gameobject to be target
 
-    public Transform copPos;
+    public GameObject win;
+
+    public GameObject lose;
     // Start is called before the first frame update
     void Start()
     {
         audio = GetComponent<AudioSource>();
+
+        cops = GetComponent<NavMeshAgent>();
     }
 
     [YarnCommand("final")]
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void Final()
     {
-        float numberFinalYarn;
-        yarnInmemoryStorage.TryGetValue("$numberFinal", out numberFinalYarn);
-        if(numberFinalYarn == 1)
+        float numberFinalYarn; 
+        yarnInmemoryStorage.TryGetValue("$numberFinal", out numberFinalYarn); //get value of numberFinal and set it to numberFinalYarn
+        Debug.Log(numberFinalYarn);
+        if(numberFinalYarn == 1) //check if player has select the right answer
         {
-            audio.Play();
-            murderer.SetDestination(copPos.position);
+            audio.Play(); //play music
+            cops.SetDestination(mPos.position); //cops go to catch the murderer
+            win.SetActive(true);
         }
-        if(numberFinalYarn == 2)
+        if(numberFinalYarn == 0) //check if player has select the right answer
         {
-            
+            lose.SetActive(true);
         }
 
     }

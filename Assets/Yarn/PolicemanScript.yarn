@@ -24,8 +24,8 @@ It is difficult to judge who is the murderer based on their testimony.  #line:0c
 -> Let me help you.  #line:035bdd7 
     <<jump P1>>
 
--> You are such an imbecile.  #line:0c2abb3 
-    <<jump p2>>
+-> You are such an imbecile.  #line:0c2abb3e
+    <<jump P2>>
 
 ===
 
@@ -50,7 +50,7 @@ The motivation of the bastard is that the deceased often abused him.  #line:0993
     <<jump P2>>
 
 -> It is still difficult to judge.....   #line:0ac9ff7 
-    <<jump p3>>
+    <<jump P3>>
 
 ===
 
@@ -63,15 +63,12 @@ I will not offer you any help. #line:0f35443
 
 Go find the clues yourself. #line:0b8ccdf 
 
-Just remember one thing,  #line:02c6325 
-only the murderer can tell a lie, everyone else tells the truth. #line:0437670 
-
--> Thanks for you help. #line:0ff4a5f 
+-> Thanks for you help. #line:0ff4a5fe 
     <<jump P4>>
 
 ===
 
-title: p3
+title: P3
 ---
 
 I agree with that. #line:07e3ad1 
@@ -81,12 +78,11 @@ Anyway, remember that only the murderer can tell a lie, everyone else tells the 
 and good luck! #line:06d1129 
 
 -> Thank you #line:0fcf4e2 
-    <<move YarnCommands>>
     <<jump P4>>
 
 ===
 
-title: p4
+title: P4
 ---
 
 Come back to me when you solve this. #line:086d81c 
@@ -94,15 +90,16 @@ Remember only one person is lying. #line:034523c
 The murderer is.... #line:0c446de 
 
 -> The housekeeper #line:0dbda9d 
-    <<set $numberFinal = 0>>
     <<final YarnCommands>>
+
 -> The wife #line:02c4957 
-    <<set $numberFinal = 0>>
     <<final YarnCommands>>
+
 -> The daughter #line:07c0013 
-    <<set $numberFinal = 0>>
     <<final YarnCommands>>
+
 -> The bastard #line:0593f9c 
-    <<set $numberFinal = 1>>
+    <<set $numberFinal=1>>
     <<final YarnCommands>>
+
 ===
