@@ -1,0 +1,139 @@
+﻿title: Housekeeper
+tags:
+---
+
+===
+
+title: HousekeeperStert
+---
+
+Hi, I am the housekeeper of this house.
+
+-> Hi, I am Holmes.
+    <<jump H1>>
+
+===
+
+title: H1
+---
+
+I have been working on this home for 13 years.
+I swear I will never do such a thing.
+
+-> I believe you.
+    <<jump H2>>
+
+-> Have you any trouble with the dead?
+    <<jump H3>>
+
+===
+
+title: H2
+---
+
+Thank you. 
+I do feel dissatisfied with the salary and want to retire to my hometown now that I am old.
+
+But I wouldn't kill someone for something like this.
+
+-> So do you have any clues to offer?
+    <<jump H4>>
+
+===
+
+title: H3
+---
+
+Others do not accept my resignation, nor do I accept my own work. 
+That's all.
+
+-> So do you have any clues to offer?
+    <<jump H4>>
+
+===
+
+title: H4
+---
+
+I know all about what happened to this family.
+Who do you want to ask about?
+
+-> The wife
+    <<jump H5>>
+
+-> The illegitimate child
+    <<jump H6>>
+
+-> The daughter
+    <<jump H7>>
+
+-> I have no thing to ask.
+    <<jump H8>>
+
+===
+
+title: H5
+---
+
+His wife used to be very affectionate with him until his cheating was exposed.
+
+After that they quarreled a lot.
+
+Although he said that he would not contact the third party again.
+But I still often see them secretly dating.
+
+His wife was very annoyed by this.
+
+-> Thanks for this.
+    <<jump H4>>
+
+===
+
+title: H6
+---
+
+He has a particularly bad relationship with his illegitimate son.
+
+This child cannot inherit the inheritance because of his own status.
+
+So he came to this house and made a big fuss.
+
+Because of this, the cheating was known to everyone.
+
+After that, the relationship between the two of them became very bad.
+
+-> Thanks for this.
+    <<jump H4>>
+
+===
+
+title: H7
+---
+
+The daughter's motivation is probably for inheritance and avenge.
+
+He is not close to his daughter.
+
+He was busy with work every day during his lifetime. 
+Although he made a lot of money, he rarely spent time with his family.
+
+So his daughter was raised by his wife alone.
+
+He cheated, his daughter might avenge for it.
+and also get inheritance.
+
+-> Thanks for this.
+    <<jump H4>>
+
+===
+
+title: H8
+---
+
+All I can say is that I didn't do it.
+
+I can't tell you who did it.
+
+-> It's ok, I will find the murderer.
+
+===

@@ -1,0 +1,106 @@
+﻿title: Wife
+tags:
+---
+
+===
+
+title: WifeStart
+---
+
+Who are you?
+
+-> I am a detective.
+    <<jump W1>>
+
+-> I am the judge of justice!
+    <<jump W1>>
+
+===
+
+title: W1
+---
+
+Well, I don't care who you are.
+Just arrest this bastard immediately!
+
+-> Why? my lady?
+    <<jump W2>>
+
+===
+
+title: W2
+---
+
+I saw him go into my husband's room at night, 
+and that's when my husband died!
+
+-> Sounds like we found the killer right away...
+    <<jump W3>>
+
+-> Calm down, I heard that you often quarrel with the deceased?
+    <<jump W4>>
+
+===
+
+title: W3
+---
+
+Yes, he and my husband fight a lot.
+For all I know, my husband beats him on a regular basis.
+
+He also went out of his way to tell me that my husband had cheated.
+
+He did this so that I could divorce my husband,
+so he could inherit my husband's property.
+
+-> So how is your relationship with your husband?
+    <<jump W5>>
+
+===
+
+title: W4
+---
+
+After I found out he was cheating, I did fight with him a lot.
+
+Although I am angry, I will not kill him because of it.
+
+-> Why do you think the illegitimate child killed your husband?
+    <<jump W6>>
+
+===
+
+title: W5
+---
+
+After I found out he was cheating, I did fight with him a lot.
+
+Although I am angry, I will not kill him because of it.
+
+-> Thanks for your cooperation.
+    <<jump W7>>
+
+===
+
+title: W6
+---
+
+For all I know, my husband beats him on a regular basis.
+
+He also went out of his way to tell me that my husband had cheated.
+
+He did this so that I could divorce my husband,
+so he could inherit my husband's property.
+
+-> Thanks for your cooperation.
+    <<jump W7>>
+
+===
+
+title: W7
+---
+
+Please arrest that murderer immediately!
+He is crazy to inherit the property that does not belong to him!
+
+===

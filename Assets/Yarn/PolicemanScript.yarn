@@ -1,0 +1,103 @@
+﻿title: PolicemanScript
+tags:
+---
+
+<<declare $numberFinal = 0>>
+
+===
+
+
+title: PoliceStartSection
+---
+
+Hello, Mr.Holmes.   #line:0ce09dc 
+
+I am Detective Inspector G. Lestrade.  #line:089729d 
+
+A murder has been committed here.   #line:0fc1be4 
+
+It is difficult to judge who is the murderer based on their testimony.  #line:0cbafc6 
+
+-> Don't worry, I'm here.  #line:018220f 
+   <<jump P1>>
+<dedent from 4><dedent from 3> #line:06fbefc 
+-> Let me help you.  #line:035bdd7 
+    <<jump P1>>
+<dedent from 4><dedent from 3> #line:0d45b6d 
+-> You are such an imbecile.  #line:0c2abb3 
+    <<jump p2>>
+
+===
+
+title: P1
+---
+
+Thank you Mr.Holmes.  #line:0d82c4c 
+Let me give you the basics.  #line:01b2528 
+
+There are a total of four suspects,   #line:05c51ff 
+namely the deceased's wife, daughter, illegitimate child and housekeeper.  #line:027ff70 
+
+The butler's motivation was that the salary was too little and the deceased would not let him resign.  #line:04a3469 
+
+The wife's motivation was that the deceased had an affair.  #line:02d53ac 
+
+The daughter's motivation is for the legacy.  #line:04cb6be 
+
+The motivation of the illegitimate child is that the deceased often abused him.  #line:0993db1 
+
+-> Gang committing crimes! Arrest them all!  #line:0be9bf1 
+    <<jump P2>>
+<dedent from 4><dedent from 4> #line:0603d22 
+-> It is still difficult to judge.....   #line:0ac9ff7 
+    <<jump p3>>
+
+===
+
+title: P2
+---
+
+What are you saying Mr.Holmes??? #line:0909bdc 
+
+I will not offer you any help. #line:0f35443 
+
+Go find the clues yourself. #line:0b8ccdf 
+
+Just remember one thing,  #line:02c6325 
+only the murderer can tell a lie, everyone else tells the truth. #line:0437670 
+
+-> Thanks for you help. #line:0ff4a5f 
+    <<jump P4>>
+
+===
+
+title: p3
+---
+
+I agree with that. #line:07e3ad1 
+
+Anyway, remember that only the murderer can tell a lie, everyone else tells the truth. #line:088b9bc 
+
+and good luck! #line:06d1129 
+
+-> Thank you #line:0fcf4e2 
+   <<jump P4>>
+
+===
+
+title: p4
+---
+
+Come back to me when you solve this. #line:086d81c 
+Remember only one person is lying.
+The murderer is.... #line:0c446de 
+
+-> The housekeeper #line:0dbda9d 
+
+-> The wife #line:02c4957 
+
+-> The daughter #line:07c0013 
+
+-> The illegitimate child #line:0593f9c 
+
+===
