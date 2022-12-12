@@ -35,10 +35,11 @@ public class Ending : MonoBehaviour
         if(numberFinalYarn == 1)
         {
             audio.Play();
+            murderer.SetDestination(copPos.position);
         }
         if(numberFinalYarn == 2)
         {
-            murderer.SetDestination(copPos.position);
+            
         }
 
     }

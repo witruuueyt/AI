@@ -7,12 +7,12 @@ tags:
 title: WifeStart
 ---
 
-Who are you?
+Who are you? #line:23fr3dwd
 
--> I am a detective.
+-> I am a detective. #line:erhwergwef
     <<jump W1>>
 
--> I am the judge of justice!
+-> I am the judge of justice! #line:etjr6u45
     <<jump W1>>
 
 ===
@@ -20,10 +20,10 @@ Who are you?
 title: W1
 ---
 
-Well, I don't care who you are.
-Just arrest this bastard immediately!
+Well, I don't care who you are. #line:wet23423
+Just arrest this bastard immediately! #line:j56ui56u45
 
--> Why? my lady?
+-> Why? my lady? #line:567i8n567nu
     <<jump W2>>
 
 ===
@@ -31,13 +31,13 @@ Just arrest this bastard immediately!
 title: W2
 ---
 
-I saw him go into my husband's room at night, 
-and that's when my husband died!
+I saw him go into my husband's room at night,  #line:354yb345y3
+and that's when my husband died! #line:w4t23dw
 
--> Sounds like we found the killer right away...
+-> Sounds like we found the killer right away... #line:r5tu45bub45u
     <<jump W3>>
 
--> Calm down, I heard that you often quarrel with the deceased?
+-> Calm down, I heard that you often quarrel with the deceased? #line:e5u35gwec
     <<jump W4>>
 
 ===
@@ -45,15 +45,15 @@ and that's when my husband died!
 title: W3
 ---
 
-Yes, he and my husband fight a lot.
-For all I know, my husband beats him on a regular basis.
+Yes, he and my husband fight a lot. #line:iul687ik76j
+For all I know, my husband beats him on a regular basis. #line:w4fwefcdc
 
-He also went out of his way to tell me that my husband had cheated.
+He also went out of his way to tell me that my husband had cheated. #line:46uj45y34
 
-He did this so that I could divorce my husband,
-so he could inherit my husband's property.
+He did this so that I could divorce my husband, #line:23t34m745
+so he could inherit my husband's property. #line:q3xedwegrth
 
--> So how is your relationship with your husband?
+-> So how is your relationship with your husband? #line:75in576u456
     <<jump W5>>
 
 ===
@@ -61,11 +61,11 @@ so he could inherit my husband's property.
 title: W4
 ---
 
-After I found out he was cheating, I did fight with him a lot.
+After I found out he was cheating, I did fight with him a lot. #line:46i57io6
 
-Although I am angry, I will not kill him because of it.
+Although I am angry, I will not kill him because of it. #line:m86io67mjk
 
--> Why do you think the illegitimate child killed your husband?
+-> Why do you think the bastard killed your husband? #line:e43y4nu4n
     <<jump W6>>
 
 ===
@@ -73,11 +73,11 @@ Although I am angry, I will not kill him because of it.
 title: W5
 ---
 
-After I found out he was cheating, I did fight with him a lot.
+After I found out he was cheating, I did fight with him a lot. #line:jtrfue
 
-Although I am angry, I will not kill him because of it.
+Although I am angry, I will not kill him because of it. #line:jrtu45gdbf
 
--> Thanks for your cooperation.
+-> Thanks for your cooperation. #line:jkfgyjry3
     <<jump W7>>
 
 ===
@@ -85,14 +85,14 @@ Although I am angry, I will not kill him because of it.
 title: W6
 ---
 
-For all I know, my husband beats him on a regular basis.
+For all I know, my husband beats him on a regular basis. #line:65r5ergbrd
 
-He also went out of his way to tell me that my husband had cheated.
+He also went out of his way to tell me that my husband had cheated. #line:jrther
 
-He did this so that I could divorce my husband,
-so he could inherit my husband's property.
+He did this so that I could divorce my husband, #line:erherg
+so he could inherit my husband's property. #line:tjytujr
 
--> Thanks for your cooperation.
+-> Thanks for your cooperation. #line:rtjmrthe
     <<jump W7>>
 
 ===
@@ -100,7 +100,7 @@ so he could inherit my husband's property.
 title: W7
 ---
 
-Please arrest that murderer immediately!
-He is crazy to inherit the property that does not belong to him!
+Please arrest that murderer immediately! #line:rtkjytjr
+He is crazy to inherit the property that does not belong to him! #line:tehjheygw
 
 ===

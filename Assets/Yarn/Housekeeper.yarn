@@ -4,12 +4,12 @@ tags:
 
 ===
 
-title: HousekeeperStert
+title: HousekeeperStart
 ---
 
-Hi, I am the housekeeper of this house.
+Hi, I am the housekeeper of this house. #line:13r113
 
--> Hi, I am Holmes.
+-> Hi, I am Holmes. #line:23fgq3
     <<jump H1>>
 
 ===
@@ -17,13 +17,13 @@ Hi, I am the housekeeper of this house.
 title: H1
 ---
 
-I have been working on this home for 13 years.
-I swear I will never do such a thing.
+I have been working on this home for 13 years. #line:23r23t
+I swear I will never do such a thing. #line:23tr23t2
 
--> I believe you.
+-> I believe you. #line:35112
     <<jump H2>>
 
--> Have you any trouble with the dead?
+-> Have you any trouble with the dead? #line:7346346
     <<jump H3>>
 
 ===
@@ -31,12 +31,13 @@ I swear I will never do such a thing.
 title: H2
 ---
 
-Thank you. 
-I do feel dissatisfied with the salary and want to retire to my hometown now that I am old.
+Thank you. #line:235235
 
-But I wouldn't kill someone for something like this.
+I do feel dissatisfied with the salary and want to retire to my hometown now that I am old. #line:w4y24t
 
--> So do you have any clues to offer?
+But I wouldn't kill someone for something like this. #line:ty7i56
+
+-> So do you have any clues to offer? #line:65u46u
     <<jump H4>>
 
 ===
@@ -44,10 +45,10 @@ But I wouldn't kill someone for something like this.
 title: H3
 ---
 
-Others do not accept my resignation, nor do I accept my own work. 
-That's all.
+Others do not accept my resignation, nor do I accept my own work. #line:35h35u
+That's all. #line:l87o68o
 
--> So do you have any clues to offer?
+-> So do you have any clues to offer? #line:8767667
     <<jump H4>>
 
 ===
@@ -55,19 +56,19 @@ That's all.
 title: H4
 ---
 
-I know all about what happened to this family.
-Who do you want to ask about?
+I know all about what happened to this family. #line:658in56n
+Who do you want to ask about? #line:4356y3v
 
--> The wife
+-> The wife #line:43456b
     <<jump H5>>
 
--> The illegitimate child
+-> The illegitimate child #line:3457n457
     <<jump H6>>
 
--> The daughter
+-> The daughter #line:5856874
     <<jump H7>>
 
--> I have no thing to ask.
+-> I have no thing to ask. #line:684734t
     <<jump H8>>
 
 ===
@@ -75,16 +76,16 @@ Who do you want to ask about?
 title: H5
 ---
 
-His wife used to be very affectionate with him until his cheating was exposed.
+His wife used to be very affectionate with him until his cheating was exposed. #line:7n345n7
 
-After that they quarreled a lot.
+After that they quarreled a lot. #line:357yn346
 
-Although he said that he would not contact the third party again.
-But I still often see them secretly dating.
+Although he said that he would not contact the mistress again. #line:4wtv24vt
+But I still often see them secretly dating. #line:35y734b
 
-His wife was very annoyed by this.
+His wife was very annoyed by this. #line:346yn346n
 
--> Thanks for this.
+-> Thanks for this. #line:7uhhy6j
     <<jump H4>>
 
 ===
@@ -92,17 +93,17 @@ His wife was very annoyed by this.
 title: H6
 ---
 
-He has a particularly bad relationship with his illegitimate son.
+He has a particularly bad relationship with the bastard. #line:567imm9
 
-This child cannot inherit the inheritance because of his own status.
+This child cannot inherit the inheritance because of his own status. #line:kuykuk
 
-So he came to this house and made a big fuss.
+So he came to this house and made a big fuss. #line:998776t
 
-Because of this, the cheating was known to everyone.
+Because of this, the cheating was known to everyone. #line:658,5m86m
 
-After that, the relationship between the two of them became very bad.
+After that, the relationship between the two of them became very bad. #line:46ub45b6
 
--> Thanks for this.
+-> Thanks for this. #line:3e5ym45m7
     <<jump H4>>
 
 ===
@@ -110,19 +111,19 @@ After that, the relationship between the two of them became very bad.
 title: H7
 ---
 
-The daughter's motivation is probably for inheritance and avenge.
+The daughter's motivation is probably for inheritance and avenge. #line:468m4m78
 
-He is not close to his daughter.
+He is not close to his daughter. #line:34ct34r
 
-He was busy with work every day during his lifetime. 
-Although he made a lot of money, he rarely spent time with his family.
+He was busy with work every day during his lifetime.  #line:ikkl67k
+Although he made a lot of money, he rarely spent time with his family. #line:rethu45by
 
-So his daughter was raised by his wife alone.
+So his daughter was raised by his wife alone. #line:er4ytb34bt
 
-He cheated, his daughter might avenge for it.
-and also get inheritance.
+He cheated, his daughter might avenge for it. #line:w4tb24n
+and also get inheritance. #line:w4ytv34yt
 
--> Thanks for this.
+-> Thanks for this. #line:23rt23t
     <<jump H4>>
 
 ===
@@ -130,10 +131,10 @@ and also get inheritance.
 title: H8
 ---
 
-All I can say is that I didn't do it.
+All I can say is that I didn't do it. #line:rtuj45u45u
 
-I can't tell you who did it.
+I can't tell you who did it. #line:im87k87ol78
 
--> It's ok, I will find the murderer.
+-> It's ok, I will find the murderer. #line:rtuj45y34t
 
 ===

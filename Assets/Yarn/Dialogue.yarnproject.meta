@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 15aa52f568c188648b63cf6b457f1d31
+guid: fc699f8efd5305249a77688617940bbb
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -8,11 +8,26 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 053561912b1654d80a424bb0696a74ae, type: 3}
-  sourceScripts: []
+  sourceScripts:
+  - {fileID: 6391573757903218779, guid: 2c73d7971e5490849b3a7f59dbe52bfd, type: 3}
+  - {fileID: 6391573757903218779, guid: 441fe4c003130c84fa20280cf94d5ca9, type: 3}
+  - {fileID: 6391573757903218779, guid: 0a4bea2a57e86d649a94568823f35f4a, type: 3}
   compileErrors: []
-  serializedDeclarations: []
-  defaultLanguage: zh-CN
-  languagesToSourceAssets: []
+  serializedDeclarations:
+  - name: $numberFinal
+    typeName: Number
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: 
+    isImplicit: 0
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: 2c73d7971e5490849b3a7f59dbe52bfd,
+      type: 3}
+  defaultLanguage: en-GB
+  languagesToSourceAssets:
+  - languageID: en-GB
+    stringsFile: {instanceID: 0}
+    assetsFolder: {instanceID: 0}
   useAddressableAssets: 0
   searchAllAssembliesForActions: 1
   assembliesToSearch: []
